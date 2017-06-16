@@ -48,3 +48,15 @@ header {
 .board {
   font-size: 2px;
 }
+.startButton {
+  background-color: green;
+  height: 30px;
+  width: 30px;
+  float: right;
+}
+.resetButton {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+  float: right;
+}

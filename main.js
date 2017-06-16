@@ -4,6 +4,8 @@ var currentPlayer = player1;
 var board = document.querySelector('.board');
 var themeSound = new Audio('Peppa_Pig.mp3');
 var muteButton = document.querySelector('.mute');
+var startButton = document.querySelector('.startButton');
+var resetButton = document.querySelector('.resetButton');
 
 var mute = function(event){
   event.target.textContent = themeSound.pause();
@@ -19,7 +21,7 @@ var switchTurn = function() {
   }
 }
 
-var scribbleSound = new Audio('180443__sseletskyy__pencil-start-02.wav');
+var scribbleSound = new Audio('68890__aboe__scribsht9.wav');
 
 var winnerSound = new Audio('149187__adriann__harp-strum.wav');
 

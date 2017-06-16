@@ -52,11 +52,11 @@ header {
   background-color: green;
   height: 30px;
   width: 30px;
-  float: right;
+  text-align: center;
 }
 .resetButton {
   background-color: red;
   height: 30px;
   width: 30px;
-  float: right;
+  text-align: center;
 }

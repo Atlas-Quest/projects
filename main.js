@@ -7,8 +7,12 @@ var muteButton = document.querySelector('.mute');
 var startButton = document.querySelector('.startButton');
 var resetButton = document.querySelector('.resetButton');
 
+var replay = function(event) {
+  resetButton.reload();
+}
+
 var mute = function(event){
-  event.target.textContent = themeSound.pause();
+  event.target.textContent = themeSound.pause() || winnerSound.pause();
 }
 
 themeSound.play();
@@ -64,4 +68,4 @@ var gameTurn = function(event){
 muteButton.addEventListener('click', mute)
 board.addEventListener('click', gameTurn)
 
-// create audio when winner console is called and display div banner with winners face and giggle
+//display div banner with winners face and giggle

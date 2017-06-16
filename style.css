@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  background-size: auto;
+}
+
+body {
+  font-family: 'Pangolin', cursive;
+  /*background-color: white;*/
+  background-image: url(background.png);
+  /*background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  background-size: cover;
+  margin: 0;
+  padding: 28px;
+  height: 100vh;
+  text-align: right;
+}
+
+header {
+ text-align: center;
+}
+
+.board div {
+  color: white;
+  display: inline-block;
+  border: 5px solid #FF80D6;
+  border-radius: 30px;
+  background-color: #FFC1FA;
+  font-size: 58px;
+  height: 110px;
+  width: 110px;
+  vertical-align: bottom;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+}
+.mute {
+  height: 40px;
+  width: 40px;
+  float: right;
+}
+
+.logo {
+  width: 40%;
+}
+
+.board {
+  font-size: 2px;
+}
